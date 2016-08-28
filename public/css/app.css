@@ -1,0 +1,92 @@
+body {
+  background-color: #935d8c;
+  color: white;
+  background-image: url("/public/images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%); }
+
+.text-center {
+  text-align: center; }
+
+.Raleway-font {
+  font-family: 'Raleway',sans-serif; }
+
+.text-gray {
+  color: #676767; }
+
+.float-right {
+  float: right; }
+
+.padding-none {
+  padding: 0 0 0 0; }
+
+.margin-none {
+  margin: 0 0 0 0; }
+
+.margin-some {
+  margin-top: 5px;
+  margin-bottom: 5px; }
+
+.main-header {
+  margin-top: 10%;
+  padding-bottom: 10%; }
+
+@media (min-width: 769px) {
+  .chatbox {
+    background-color: #ffffff;
+    border-radius: 0.25em;
+    padding: 20px;
+    border: 1px solid rgba(34, 36, 38, 0.15); } }
+
+@media (max-width: 768px) {
+  .chatbox {
+    background-color: #ffffff;
+    border-radius: 0.25em;
+    padding: 10px;
+    border: 1px solid rgba(34, 36, 38, 0.15); } }
+
+@media (max-width: 768px) {
+  #app-container {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0; } }
+
+#register-btn-container {
+  padding-top: 30px; }
+
+#register-no-thanks-btn {
+  margin-right: 20px; }
+
+/** For Profile Page CSS **/
+#profile-container {
+  padding-top: 20px; }
+
+.gamertag {
+  padding-bottom: 5px; }
+
+#halo-progress-label {
+  font-size: 0.9em; }
+
+@media (min-width: 376px) {
+  #mobile-375 {
+    display: none; } }
+
+@media (max-width: 375px) {
+  #mobile-375 {
+    display: block; } }
+
+@media (min-width: 376px) {
+  #mobile-375-none {
+    display: block; } }
+
+@media (max-width: 375px) {
+  #mobile-375-none {
+    display: none; } }
+
+/** Override Semantic-ui css **/
+.ui.progress .bar {
+  background-color: #21BA45 !important; }
+
+.ui.progress .bar > .progress {
+  left: .1em; }
+
+/*# sourceMappingURL=app.css.map */
