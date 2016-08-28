@@ -23,4 +23,9 @@ class User extends Authenticatable
     protected $hidden = [
         'password',
     ];
+
+
+    public function chat () {
+        return $this->hasMany('App\Chat');
+    }
 }

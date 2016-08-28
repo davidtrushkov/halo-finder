@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Chat;
 use App\User;
 use App\Ranks;
 use App\Http\Controllers\Controller;

@@ -25,5 +25,6 @@ function flash($title = null, $message = null) {
 
 
 function connectDB() {
-    return new mysqli("localhost", "root", "", "");
+    return new mysqli("localhost", "root", "d16331633", "finder");
+    //return new mysqli("localhost", "davidtru", "d16331633", "davidtru_halo");     //-----> For Live
 }

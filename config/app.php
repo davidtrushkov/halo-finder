@@ -149,6 +149,7 @@ return [
         Illuminate\View\ViewServiceProvider::class,
 
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
+        Vinkla\Pusher\PusherServiceProvider::class,
 
         /*
          * Application Service Providers...

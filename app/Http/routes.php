@@ -34,3 +34,9 @@ Route::get('/profile/{slug}', [
     'uses' => '\App\Http\Controllers\ProfileController@index',
     'as' => 'user.profile'
 ]);
+
+
+Route::post('/chat', [
+    'uses' => '\App\Http\Controllers\ChatController@sendMessage',
+    'as' => 'chat.send'
+]);
